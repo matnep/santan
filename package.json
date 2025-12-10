@@ -1,12 +1,13 @@
 {
   "name": "santan",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A multiplayer game built with Phaser and Socket.io",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["game", "multiplayer", "phaser", "socket.io"],
   "author": "",
   "license": "ISC",
   "dependencies": {
